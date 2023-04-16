@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <h2>Search Movie</h2>
+    <div class="movieFiltersSectionContainer">
+      <!-- <div>
+          <label for="genre">genre:</label>
+          <select name="genre" id="genre">
+            <option value="Action">Action</option>
+
+          </select>
+        </div> -->
+        <!-- <div >
+          <label for="rating">Rating:</label>
+          <select name="rating" id="rating">
+            <option value="7.1">7.1</option>
+            <option value="7.3">7.3</option>
+            <option value="7.5">7.5</option>
+            <option value="7.8">7.8</option>
+            <option value="7.9">7.9</option>
+            <option value="8.1">8.1</option>
+            <option value="8.2">8.2</option>
+            <option value="8.3">8.3</option>
+            <option value="8.4">8.4</option>
+            <option value="8.5">8.5</option>
+
+
+          </select>
+        </div> -->
+        <div>
+          <label for="year">Release year:</label>
+          <select name="year" id="year">
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            
+
+          </select>
+        </div>
+        <!-- <div>
+          <label for="Language">Language:</label>
+          <select name="Language" id="Language">
+            <option value="English">English</option>
+
+          </select>
+        </div> -->
+        <div>
+          <button type="button" id="searchMovieBtn">Load Movie</button>
+        </div>
+  </div>
+
+  <h2>Display Movies:</h2>
+  <div class="movieList">
+    <div class="movieDate">
+      <h3>Relase Year</h3>
+    </div>
+    <div class="movieTitle">
+      <h3>Title</h3>
+    </div>
+    <div class="movieLanguage">
+      <h3>Langugae</h3>
+    </div>
+    <div class="moviveVoting">
+      <h3>Rating</h3>
+    </div>
+
+  </div>
+  <div id="displayMovies"></div>
+    
+  </body>
+</html>

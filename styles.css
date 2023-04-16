@@ -1,0 +1,11 @@
+/* style.css */
+
+.movieFiltersSectionContainer {display: flex;}
+.movieFiltersSectionContainer div { margin-left: 50px;}
+
+.movieList {display: flex;}
+.movieList div {margin-left: 50px;}
+.movieList div.movieDate { width: 25%;}
+.movieList div.movieTitle {width: 25%;}
+.movieList div.movieLanguage {width: 25%;}
+.movieList div.moviveVoting {width: 25%;}
